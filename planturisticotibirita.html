@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./planturisticotibirita.css">
+    <title>Plan Turístico Tibirita</title>
+    <script>
+        function verificarContraseña(url) {
+            const contraseñaCorrecta = '4321'; // Cambia esto por tu contraseña de 4 números
+            const contraseñaUsuario = prompt('Por favor, introduce la contraseña de 4 números:');
+
+            if (contraseñaUsuario === contraseñaCorrecta) {
+                window.open(url, '_blank'); // Abre en una nueva pestaña
+            } else {
+                alert('Contraseña incorrecta. Inténtalo de nuevo.');
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <ul id="lista-menu">
+                <a href="iniciotibirita.html" class="enlace-menu"><li class="menu-item">Tibirita</li></a>
+                <a href="Ecosistematibirita.html" class="enlace-menu"><li class="menu-item">Ecosistema y más</li></a>
+                <a href="planturisticotibirita.html" class="enlace-menu"><li class="menu-item">Plan turístico</li></a>
+                <a href="Sitiosturisticostibirita.html" class="enlace-menu"><li class="menu-item">Sitios turísticos</li></a>
+                <a href="Contactotibirita.html" class="enlace-menu"><li class="menu-item">Contacto</li></a>
+            </ul>
+        </nav>
+        <a href="index.html" id="logo-link"><img src="img/mef.PNG" alt="Logo" id="logo"></a>
+    </header>
+
+    <main>
+        <h1 id="titulo">Plan Turístico Tibirita</h1>
+
+        <section>
+            <h2>Plan Turístico</h2>
+            <h3>Día 1 - Aventura en Tibirita</h3>
+            <p><strong>Hora de salida:</strong> 9:50 a.m. desde el Portal del Norte (Bogotá)</p>
+            <ul>
+                <li><strong>Transporte Bogotá - Tibirita:</strong>
+                    <ul>
+                        <li>Hora de salida: 9:50 a.m.</li>
+                        <li>Empresa: Flota Valle de Tenza.</li>
+                        <li>Costo del bus ida y vuelta: 400,000 COP para 10 personas.</li>
+                        <li>Hora estimada de llegada a Tibirita: 12:00 p.m.</li>
+                    </ul>
+                </li>
+                <li><strong>Ciclomontañismo (Mountain Bike):</strong>
+                    <ul>
+                        <li>Hora de inicio: 1:00 p.m.</li>
+                        <li>Duración: 2 horas.</li>
+                        <li>Guías locales de ciclismo (incluye bicicletas).</li>
+                        <li>Costo por grupo: 200,000 COP.</li>
+                    </ul>
+                </li>
+                <li><strong>Cascada El Tobal (Caminata autoguiada):</strong>
+                    <ul>
+                        <li>Hora de inicio: 3:30 p.m.</li>
+                        <li>Duración: 1 hora.</li>
+                        <li>Costo: gratis.</li>
+                    </ul>
+                </li>
+                <li><strong>Cena y alojamiento en el Hotel Las Palmeras:</strong>
+                    <ul>
+                        <li>Hora de llegada al hotel: 6:00 p.m.</li>
+                        <li>Cena: Incluida en el paquete del hotel.</li>
+                        <li>Costo por noche para 10 personas: 300,000 COP.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Día 2 - Naturaleza y Cultura</h3>
+            <ul>
+                <li><strong>Desayuno en el hotel:</strong>
+                    <ul>
+                        <li>Hora de inicio: 8:00 a.m.</li>
+                        <li>Incluido en el alojamiento.</li>
+                    </ul>
+                </li>
+                <li><strong>Senderismo autoguiado a la Cueva de las Brujas:</strong>
+                    <ul>
+                        <li>Hora de inicio: 9:00 a.m.</li>
+                        <li>Duración: 1.5 horas.</li>
+                        <li>Costo: gratis, autoguiado.</li>
+                    </ul>
+                </li>
+                <li><strong>Mirador de la Peña (Caminata autoguiada):</strong>
+                    <ul>
+                        <li>Hora de inicio: 11:30 a.m.</li>
+                        <li>Duración: 1.5 horas.</li>
+                        <li>Costo: gratis, autoguiado.</li>
+                    </ul>
+                </li>
+                <li><strong>Almuerzo en Tibirita:</strong>
+                    <ul>
+                        <li>Hora de inicio: 2:00 p.m.</li>
+                        <li>Restaurante local: Menú básico.</li>
+                        <li>Costo para 10 personas: 100,000 COP.</li>
+                    </ul>
+                </li>
+                <li><strong>Regreso a Bogotá:</strong>
+                    <ul>
+                        <li>Hora de salida: 4:00 p.m.</li>
+                        <li>Hora estimada de llegada: 7:00 p.m.</li>
+                        <p><strong>Precio total que voy a pedir: 1,250,000 COP</strong></p>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Costos</h3>
+            <ul>
+            <li><a href="javascript:void(0);" onclick="verificarContraseña('costostibirita2.html')">Ver Costos Detallados</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Ganancias </h3>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="verificarContraseña('gananciatibirita2.html')">Ver Ganancias Detalladas</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Plan Turístico 2</h2>
+        
+            <div class="plan-dia">
+                <h3>Día 1: Caminatas de Reconocimiento</h3>
+                <ul>
+                    <li><strong>6:00 a.m. - Salida desde Bogotá y llegada a Tibirita:</strong>
+                        <ul>
+                            <li>Nos encontraremos en un punto estratégico en Bogotá para iniciar nuestro viaje en bus privado hacia Tibirita. El recorrido será de aproximadamente 3 horas.</li>
+                            <li>Durante el trayecto, habrá un guía explicando las maravillas naturales y las tradiciones del lugar.</li>
+                        </ul>
+                    </li>
+                    <li><strong>9:00 a.m. - Llegada a Tibirita:</strong>
+                        <ul>
+                            <li>Recibimiento con una bebida de bienvenida, típica de la región, como el agua de panela con limón.</li>
+                            <li>Introducción al senderismo en la región por parte de un guía local.</li>
+                        </ul>
+                    </li>
+                    <li><strong>10:00 a.m. - Senderismo por la Reserva Natural de Tibirita:</strong>
+                        <ul>
+                            <li>Guiados por un experto en senderismo, exploraremos los senderos más impresionantes llenos de flora y fauna.</li>
+                            <li>La policía ambiental acompañará para asegurar un recorrido seguro.</li>
+                        </ul>
+                    </li>
+                    <li><strong>1:00 p.m. - Almuerzo típico en una finca local:</strong>
+                        <ul>
+                            <li>Disfrutaremos de sancocho campesino, arepas de choclo y limonada natural.</li>
+                        </ul>
+                    </li>
+                    <li><strong>3:00 p.m. - Tarde libre para explorar el pueblo:</strong>
+                        <ul>
+                            <li>Tiempo libre para visitar tiendas de artesanías o relajarse en el parque central.</li>
+                        </ul>
+                    </li>
+                    <li><strong>6:00 p.m. - Cena en el hotel y noche libre:</strong>
+                        <ul>
+                            <li>Cena con platos locales como ajiaco o sobrebarriga en salsa criolla.</li>
+                            <li>Opción de disfrutar de una fogata organizada por el hotel.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div> <!-- Fin de plan-dia Día 1 -->
+
+            <div class="plan-dia">
+                <h3>Día 2: Más senderismo y regreso a Bogotá</h3>
+                <ul>
+                    <li><strong>7:00 a.m. - Desayuno típico:</strong>
+                        <ul>
+                            <li>Desayuno con huevos al gusto, chocolate caliente, arepas y frutas frescas de la región.</li>
+                        </ul>
+                    </li>
+                    <li><strong>8:30 a.m. - Senderismo a la Cascada del Silencio:</strong>
+                        <ul>
+                            <li>Caminata hacia la famosa Cascada del Silencio, con una duración de aproximadamente 2 horas.</li>
+                            <li>El guía contará leyendas sobre la zona y la policía acompañará para asegurar un recorrido sin complicaciones.</li>
+                        </ul>
+                    </li>
+                    <li><strong>12:00 p.m. - Almuerzo campestre en la cascada:</strong>
+                        <ul>
+                            <li>Picnic con sándwiches artesanales, jugos naturales y frutas locales.</li>
+                        </ul>
+                    </li>
+                    <li><strong>2:00 p.m. - Visita a la Casa de las Tradiciones:</strong>
+                        <ul>
+                            <li>Un pequeño museo local que conserva objetos y relatos de la historia y cultura de Tibirita.</li>
+                        </ul>
+                    </li>
+                    <li><strong>4:00 p.m. - Regreso a Bogotá:</strong>
+                        <ul>
+                            <li>Viaje de regreso a Bogotá con una charla final con el guía sobre las experiencias vividas.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div> <!-- Fin de plan-dia Día 2 -->
+        </section>
+        <section>
+            <h3>Costos </h3>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="verificarContraseña('costostibirita.html')">Ver Costos Detallados</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Ganancias </h3>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="verificarContraseña('gananciatibirita.html')">Ver Ganancias Detalladas</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
